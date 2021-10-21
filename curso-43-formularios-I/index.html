@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso 43</title>
+    <link rel="stylesheet" href="/curso-43-formularios-I/css/styles.css">
+</head>
+<body>
+
+    <header class="head">
+        <div class="container head__texts">
+            <h1 class="head__title">Curso JavaScript</h1>
+            <p class="head__text">Curso intensivo sobre JavaScript. Ejercicios, métodos, etc.</p>
+        </div>
+
+        <div class="container head__links">
+            <a href="/index.html" class="head__link">Inicio</a>
+            <a href="#" class="head__link">Ejercicios</a>
+            <a href="#" class="head__link">Clases</a>
+            <a href="#" class="head__link">Contacto</a>
+        </div>
+        
+    </header>    
+
+    <h1 class="title">Capítulo 43 - Formularios I (Validaciones)</h1>
+
+    <form action="#" method="POST" id="form" class="form">
+        <div class="form__data">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form__data">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div id="gender" class="form__data">
+            <label for="male">Masculino</label>
+            <input type="radio" id="male" name="male">
+            <label for="female">Femenino</label>
+            <input type="radio" id="female" name="female">
+        </div>
+
+        <div class="form__data">
+            <label for="terms">He aceptado todos los términos y condicones</label>
+            <input type="checkbox" id="terms" name="terms">
+        </div>
+        
+        <button id="submitButton" disabled class="button">Send</button>
+
+    </form>
+
+    <p class="text__link">(Es necesario abrir la consola)</p>
+
+    <a href="/index.html" class="menu__link">Ir al menú</a>
+
+    <script src="/curso-43-formularios-I/app.js"></script>
+    
+</body>
+</html>

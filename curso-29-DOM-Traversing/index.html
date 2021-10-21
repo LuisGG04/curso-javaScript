@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso 29</title>
+    <link rel="stylesheet" href="/curso-29-DOM-Traversing/css/styles.css">
+</head>
+<body>
+
+    <header class="head">
+        <div class="container head__texts">
+            <h1 class="head__title">Curso JavaScript</h1>
+            <p class="head__text">Curso intensivo sobre JavaScript. Ejercicios, métodos, etc.</p>
+        </div>
+
+        <div class="container head__links">
+            <a href="/index.html" class="head__link">Inicio</a>
+            <a href="#" class="head__link">Ejercicios</a>
+            <a href="#" class="head__link">Clases</a>
+            <a href="#" class="head__link">Contacto</a>
+        </div>
+        
+    </header>
+
+    <h1 id="title" class="title">Capítulo 29 - DOM traversing</h1>
+
+    <nav class="nav">
+        <ul id="parent">
+            <li>son-1</li>
+            <li>son-2</li>
+            <li>son-3</li>
+            <ul>
+                <li>grandson-1</li>
+                <li>grandson-2</li>
+                <li>grandson-3</li>
+            </ul>
+        </ul>
+    </nav>
+
+    <p class="text__link">(Es necesario abrir la consola)</p>
+
+    <a href="/index.html" class="menu__link">Ir al menú</a>
+
+    <script src="/curso-29-DOM-Traversing/app.js"></script>
+    
+</body>
+</html>

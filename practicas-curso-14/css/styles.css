@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(51, 51, 51);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    background-color: #fafafa;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.head__texts{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.head__links{
+    margin: 0;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.head__link{
+    text-decoration: none;
+    color: #0077b5;
+    cursor: pointer;
+    border-right: 2px solid #333;
+    padding-right: 5px;
+}
+
+.text__link{
+    text-align: center;
+    color: #fafafa;
+}
+
+.menu__link{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #fafafa;
+    cursor: pointer;
+    border: 5px solid #FFC745;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    overflow: hidden;
+    height: auto;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main{
+    height: 80px;
+    border-bottom: 5px solid #FFC745;
+}
+
+.container__hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__main{
+    color: #fafafa;
+    font-size: 20px;
+}
+
+.links{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.img__mockup{
+    width: 200px;
+    height: 200px;
+}
+
+.title{
+    color: #fafafa;
+    text-align: center;
+}
+
+.ejercicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.subtitle{
+    color: #FFC745;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.homework{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    width: 40%;
+    height: 200px;
+    border-radius: 10px;
+    border: solid #FFC745;
+    text-align: center;
+    color: #fafafa;
+    margin-right: 20px;
+}
+
+.title__homework{
+    display: block;
+    width: 100%;
+}
+
+.link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: inherit;
+    border-radius: 5px;
+    border: solid rgba(33, 18, 165, 0.705);
+    width: 50%;
+    height: 40px;
+}
